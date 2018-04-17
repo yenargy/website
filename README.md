@@ -11,3 +11,8 @@ Assuming you have npm already our makefile should handle the rest
 $ make install
 $ make start
 ```
+
+## Notes
+
+This site has been created using `react-static` and specifically the 
+[`less-antdesign`](https://github.com/nozzle/react-static/tree/master/examples/less-antdesign) template.
