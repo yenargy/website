@@ -1,6 +1,6 @@
 <img src="https://github.com/MARKETProtocol/dApp/blob/master/src/img/MARKETProtocol-Light.png?raw=true" align="middle">
 
-# MARKET Protocol static website creative content and site generator
+# Static website creative content and site generator
 
 This repository contains both code to generate the MARKET Protocol site and content and customizations that comprise the site.  
 
