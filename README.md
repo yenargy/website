@@ -4,3 +4,10 @@
 
 This repository contains code related to the main marketing site to be hosted at marketprotocol.io
 
+## Getting Started
+
+Assuming you have npm already our makefile should handle the rest
+```
+$ make install
+$ make start
+```
