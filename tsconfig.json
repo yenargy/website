@@ -16,8 +16,8 @@
     "skipLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@myPathAlias/*": [
-        "src/path-alias-example/*"
+      "@components/*": [
+        "src/components/*"
       ]
     },
     "typeRoots": [

@@ -1,11 +1,14 @@
 import React from 'react'
-import { Link, Router, withRouter } from 'react-static'
-import styled, { injectGlobal } from 'styled-components'
-import { hot } from 'react-hot-loader'
+import {Link, Router, withRouter} from 'react-static'
+import styled, {injectGlobal} from 'styled-components'
+import {hot} from 'react-hot-loader'
 //
 import Routes from 'react-static-routes'
-import { Layout, Menu, Icon } from 'antd'
-const { Header, Sider, Content, Footer } = Layout
+import {Layout, Menu, Icon} from 'antd'
+import {Link} from "react-router-dom";
+import logoImg from 'images/logo_light.svg'
+import marketFooter from '@components/footer';
+const {Header, Content, Footer} = Layout
 
 injectGlobal`
   #root {
@@ -16,10 +19,10 @@ injectGlobal`
 `
 
 const Logo = styled.div`
-  height: 32px;
-  background: #333;
-  border-radius: 6px;
-  margin: 16px;
+  width: 250px;
+  line-height: 64px;
+  margin: 0;
+  float: left;
 `
 
 const Trigger = styled(Icon)`
@@ -35,62 +38,53 @@ const Trigger = styled(Icon)`
 `
 
 class App extends React.Component {
-  state = {
-    collapsed: false,
-  }
-  toggle = () => {
-    this.setState({
-      collapsed: !this.state.collapsed,
-    })
-  }
   render() {
     return (
       <Router>
-        <Layout>
-          <Sider
-            style={{ backgroundColor: '#404040' }}
-            trigger={null}
-            collapsible
-            collapsed={this.state.collapsed}
-          >
-            <Logo />
-            <Menu theme="dark" mode="inline" defaultSelectedKeys={['1']}>
+        <Layout className="layout">
+          <Header>
+            <Logo><img alt="react-static" width="100%" src={logoImg}/></Logo>
+            <Menu
+              theme="dark"
+              mode="horizontal"
+              style={{lineHeight: '64px', float: 'right'}}
+            >
               <Menu.Item key="1">
-                <Link to="/" style={{ color: 'inherit', textDecoration: 'none' }}>
-                  <Icon type="home" />
-                  <span>Home</span>
+                <Link to="/about" style={{color: 'inherit', textDecoration: 'none'}}>
+                  Team
                 </Link>
               </Menu.Item>
               <Menu.Item key="2">
-                <Link to="/blog" style={{ color: 'inherit', textDecoration: 'none' }}>
-                  <Icon type="bars" />
-                  <span>Blog</span>
+                <Link to="#" style={{color: 'inherit', textDecoration: 'none'}}>
+                  Whitepaper
                 </Link>
               </Menu.Item>
               <Menu.Item key="3">
-                <Link to="/about" style={{ color: 'inherit', textDecoration: 'none' }}>
-                  <Icon type="pushpin-o" />
-                  <span>About</span>
+                <Link to="#" style={{color: 'inherit', textDecoration: 'none'}}>
+                  FAQs
+                </Link>
+              </Menu.Item>
+              <Menu.Item key="4">
+                <Link to="#" style={{color: 'inherit', textDecoration: 'none'}}>
+                  Subscribe
+                </Link>
+              </Menu.Item>
+              <Menu.Item key="5">
+                <Link to="#" style={{color: 'inherit', textDecoration: 'none'}}>
+                  Blog
+                </Link>
+              </Menu.Item>
+              <Menu.Item key="6">
+                <Link to="#" style={{color: 'inherit', textDecoration: 'none'}}>
+                  Telegram
                 </Link>
               </Menu.Item>
             </Menu>
-          </Sider>
-          <Layout>
-            <Header style={{ background: '#fff', padding: 0 }}>
-              <Trigger
-                type={this.state.collapsed ? 'menu-unfold' : 'menu-fold'}
-                onClick={this.toggle}
-              />
-            </Header>
-            <Content
-              style={{ margin: '32px 32px', padding: 24, background: '#fff', minHeight: 280 }}
-            >
-              <Routes />
-            </Content>
-            <Footer style={{ textAlign: 'center' }}>
-              React Static — Example with ant design UI & TypeScript / LESS loaders
-            </Footer>
-          </Layout>
+          </Header>
+          <Content style={{background: '#FFFFFF'}}>
+            <Routes />
+          </Content>
+          {marketFooter}
         </Layout>
       </Router>
     )
