@@ -25,18 +25,6 @@ const Logo = styled.div`
   float: left;
 `
 
-const Trigger = styled(Icon)`
-  font-size: 18px;
-  line-height: 64px;
-  padding: 0 16px;
-  cursor: pointer;
-  transition: color 0.3s;
-
-  :hover {
-    color: #108ee9;
-  }
-`
-
 class App extends React.Component {
   render() {
     return (
