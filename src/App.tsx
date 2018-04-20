@@ -1,14 +1,14 @@
-import React from 'react'
-import {Link, Router, withRouter} from 'react-static'
-import styled, {injectGlobal} from 'styled-components'
-import {hot} from 'react-hot-loader'
+import React from 'react';
+import {Link, Router, withRouter} from 'react-static';
+import styled, {injectGlobal} from 'styled-components';
+import {hot} from 'react-hot-loader';
 //
-import Routes from 'react-static-routes'
-import {Layout, Menu, Icon} from 'antd'
+import Routes from 'react-static-routes';
+import {Layout, Menu, Icon} from 'antd';
 import {Link} from "react-router-dom";
-import logoImg from 'images/logo_light.svg'
-import marketFooter from '@components/footer';
-const {Header, Content, Footer} = Layout
+import logoImg from 'images/logo_light.svg';
+import MarketFooter from '@components/Footer';
+const {Header, Content} = Layout;
 
 injectGlobal`
   #root {
@@ -16,14 +16,14 @@ injectGlobal`
     min-height: 100%;
     display: flex;
   }
-`
+`;
 
 const Logo = styled.div`
   width: 250px;
   line-height: 64px;
   margin: 0;
   float: left;
-`
+`;
 
 class App extends React.Component {
   render() {
@@ -72,11 +72,11 @@ class App extends React.Component {
           <Content style={{background: '#FFFFFF'}}>
             <Routes />
           </Content>
-          {marketFooter}
+          <MarketFooter />
         </Layout>
       </Router>
     )
   }
 }
 
-export default hot(module)(App)
+export default hot(module)(App);

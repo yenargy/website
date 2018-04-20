@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="477px" height="194px" viewBox="0 0 477 194" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 17</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#FFFFFF" stop-opacity="0.3" offset="0%"></stop>
+            <stop stop-color="#181E26" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="market-site" transform="translate(-486.000000, -3044.000000)">
+            <g id="Page-1" transform="translate(3.000000, 2836.000000)">
+                <g id="Group-17" transform="translate(484.000000, 210.000000)">
+                    <polygon id="Fill-3" fill="url(#linearGradient-1)" points="476 88.8888889 459.345088 90.0740741 414.357683 23.7037037 395.415617 22.5185185 380.025189 0 338.589421 50.962963 300.70529 74.6666667 282.947103 77.037037 264.005038 103.111111 246.246851 99.5555556 220.201511 79.4074074 194.156171 87.7037037 168.110831 9.48148148 132.594458 22.5185185 108.916877 47.4074074 81.6876574 48.5925926 60.3778338 84.1481481 33.1486146 67.5555556 0 92.4444444 0 191.703704 476 191.703704"></polygon>
+                    <polyline id="Stroke-10" stroke="#FFFFFF" stroke-width="2" points="0 92.3448276 33.1486146 67.4827586 60.3778338 84.0574713 81.6876574 48.5402299 108.916877 47.3563218 132.594458 22.4942529 168.110831 9.47126437 194.156171 87.6091954 220.201511 79.3218391 246.246851 99.4482759 264.005038 103 282.947103 76.954023 300.70529 74.5862069 338.589421 50.908046 380.025189 0 395.415617 22.4942529 414.357683 23.6781609 459.345088 89.9770115 475 88.7931034"></polyline>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

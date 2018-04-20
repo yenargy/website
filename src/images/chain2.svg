@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="475px" height="192px" viewBox="0 0 475 192" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 12</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#FFFFFF" stop-opacity="0.5" offset="0%"></stop>
+            <stop stop-color="#00E2C1" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="market-site" transform="translate(-963.000000, -3046.000000)">
+            <g id="Page-1" transform="translate(3.000000, 2836.000000)">
+                <polygon id="Fill-2" fill="#00E2C1" points="960 479 1439 479 1439 0 960 0"></polygon>
+                <text id="Predictable" font-family="WorkSans-Regular, Work Sans" font-size="25" font-weight="normal" fill="#181E26">
+                    <tspan x="1130.4875" y="422">Predictable</tspan>
+                </text>
+                <g id="Group-12" transform="translate(959.000000, 295.000000)">
+                    <polygon id="Fill-6" fill="url(#linearGradient-1)" points="1 106.702778 1 3.56666667 38.8518519 7.13333333 77.962963 5.94444444 120.62963 5.94444444 166.851852 5.94444444 213.074074 3.56666667 249.814815 4.75555556 292.481481 3.56666667 344.62963 0 406.259259 1.18888889 460.777778 2.37777778 475 1.18888889 475 106.702778"></polygon>
+                    <polyline id="Stroke-9" stroke="#FFFFFF" stroke-width="2" points="1.13686838e-13 3.5 38.8518519 7 77.962963 5.83333333 120.62963 5.83333333 166.851852 5.83333333 213.074074 3.5 249.814815 4.66666667 292.481481 3.5 344.62963 0 406.259259 1.16666667 460.777778 2.33333333 475 1.16666667"></polyline>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
